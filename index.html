@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soul Cafe — Кафе, где природа встречается со вкусом · Ташкент</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="soulcafe.css">
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#" class="logo">
+    <div class="logo-circle">SO<br>UL</div>
+    <div class="logo-text">
+      <span class="logo-name">SOUL CAFE</span>
+      <span class="logo-tag">Ташкент · Est. 2021</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">О нас</a></li>
+    <li><a href="#menu">Меню</a></li>
+    <li><a href="#events">События</a></li>
+    <li><a href="#reserve">Забронировать</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="nav-reserve" onclick="scroll2('reserve')">🌿 Забронировать стол</button>
+    <button class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-left">
+    <div class="hero-badge"><span></span>Открыто с 8:00 до 00:00</div>
+    <h1>Кафе, где<br><em>природа</em><br>встречается<br>со <span class="gold">вкусом</span></h1>
+    <p class="hero-desc">Уютное пространство среди живой зелени, авторская кухня и атмосфера, которую хочется переживать снова и снова.</p>
+    <div class="hero-actions">
+      <button class="btn-green" onclick="scroll2('reserve')">🌿 Забронировать стол</button>
+      <button class="btn-outline" onclick="scroll2('menu')">Смотреть меню →</button>
+    </div>
+    <div class="hero-info">
+      <div class="hi"><div class="hi-icon">📍</div><div class="hi-text"><strong>Buyuk Ipak Yuli, 152</strong><span>Ташкент, Узбекистан</span></div></div>
+      <div class="hi"><div class="hi-icon">🕗</div><div class="hi-text"><strong>08:00 – 00:00</strong><span>Каждый день</span></div></div>
+      <div class="hi"><div class="hi-icon">🎵</div><div class="hi-text"><strong>Живая музыка</strong><span>Вечера акустики</span></div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hcard featured">
+      <div class="hcard-top"><div class="hcard-icon">🌿</div><div class="hcard-label">Наша философия</div></div>
+      <div class="hcard-title">Природа и вкус — в каждой детали</div>
+      <div class="hcard-desc">Живые растения, натуральные ингредиенты и атмосфера, где время замедляется.</div>
+    </div>
+    <div class="hcard">
+      <div class="hcard-top"><div class="hcard-icon">🎵</div><div class="hcard-label">Вечера акустики</div></div>
+      <div class="hcard-title">Живая музыка каждую неделю</div>
+      <div class="hcard-desc">Уютные вечера с живым звуком и особыми десертами. Следите за расписанием.</div>
+    </div>
+    <div class="hstat-row">
+      <div class="hstat"><div class="hstat-n">73K</div><div class="hstat-l">подписчиков</div></div>
+      <div class="hstat"><div class="hstat-n">87</div><div class="hstat-l">публикаций</div></div>
+      <div class="hstat"><div class="hstat-n">★4.9</div><div class="hstat-l">рейтинг</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="ticker">
+  <div class="ticker-inner">
+    <span class="tick">Авторская кухня</span><span class="tick">Живая музыка</span><span class="tick">Особые десерты</span><span class="tick">Buyuk Ipak Yuli 152</span><span class="tick">08:00 – 00:00</span><span class="tick">Вечера акустики</span><span class="tick">Уютная атмосфера</span><span class="tick">73K подписчиков</span><span class="tick">Живые растения</span>
+    <span class="tick">Авторская кухня</span><span class="tick">Живая музыка</span><span class="tick">Особые десерты</span><span class="tick">Buyuk Ipak Yuli 152</span><span class="tick">08:00 – 00:00</span><span class="tick">Вечера акустики</span><span class="tick">Уютная атмосфера</span><span class="tick">73K подписчиков</span><span class="tick">Живые растения</span>
+  </div>
+</div>
+
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-box">
+          <div class="about-emoji-big">🌿</div>
+          <div class="about-center-content">
+            <div class="about-leaf">🍃</div>
+            <div class="about-quote">«Кафе, где природа встречается со вкусом»</div>
+            <div class="about-q-sub">Soul Cafe · Ташкент · Est. 2021</div>
+          </div>
+        </div>
+        <div class="about-float"><div class="about-float-num">2021</div><div class="about-float-lbl">Год открытия</div></div>
+      </div>
+      <div class="reveal rd2">
+        <div class="eyebrow">О нас</div>
+        <h2 class="sec-title">Место, где хочется<br><em>оставаться</em></h2>
+        <p>Soul Cafe — это больше чем кафе. Это <strong>пространство, где природа становится частью интерьера</strong>, а каждое блюдо — маленьким произведением искусства.</p>
+        <p>От создателей <strong>@memories_group_uz</strong> — команды, которая умеет создавать атмосферу. Живые растения, мягкий свет, вечера живой акустики и особые десерты.</p>
+        <div class="about-highlights">
+          <div class="ahl"><div class="ahl-icon">🌱</div><div><div class="ahl-text">Живые растения</div><div class="ahl-sub">Природа в каждом уголке</div></div></div>
+          <div class="ahl"><div class="ahl-icon">🎵</div><div><div class="ahl-text">Вечера акустики</div><div class="ahl-sub">Живая музыка</div></div></div>
+          <div class="ahl"><div class="ahl-icon">🍰</div><div><div class="ahl-text">Особые десерты</div><div class="ahl-sub">Авторские рецепты</div></div></div>
+          <div class="ahl"><div class="ahl-icon">📍</div><div><div class="ahl-text">Buyuk Ipak Yuli</div><div class="ahl-sub">В сердце Ташкента</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="menu-section" id="menu">
+  <div class="container">
+    <div class="menu-header reveal">
+      <div><div class="eyebrow">Меню</div><h2 class="sec-title">Избранное<br><em>из нашей кухни</em></h2></div>
+      <p class="sec-sub">Авторские блюда из свежих локальных продуктов. Каждая позиция — с душой.</p>
+    </div>
+    <div class="menu-grid reveal rd1">
+      <div class="menu-card">
+        <div class="menu-img"><div class="menu-img-bg" style="background:linear-gradient(160deg,#D8EDD0,#C8E0BC)"></div><span class="menu-img-emoji">🥗</span><span class="menu-tag">Популярное</span></div>
+        <div class="menu-body"><div class="menu-name">Зелёный боул</div><div class="menu-desc">Свежая зелень, авокадо, киноа, пророщенные семена и авторская заправка на основе кунжута.</div><div class="menu-footer"><div class="menu-price">от 45 000 сум</div><button class="menu-order">Заказать →</button></div></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="menu-img-bg" style="background:linear-gradient(160deg,#F0E8D0,#E8D8B8)"></div><span class="menu-img-emoji">☕</span></div>
+        <div class="menu-body"><div class="menu-name">Авторский кофе</div><div class="menu-desc">Фирменные кофейные напитки на основе specialty зерна. Горячие и холодные варианты.</div><div class="menu-footer"><div class="menu-price">от 28 000 сум</div><button class="menu-order">Заказать →</button></div></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="menu-img-bg" style="background:linear-gradient(160deg,#FFE8E0,#F0D0C8)"></div><span class="menu-img-emoji">🍰</span><span class="menu-tag" style="background:var(--terr)">Особый</span></div>
+        <div class="menu-body"><div class="menu-name">Особый десерт Soul</div><div class="menu-desc">Авторский торт по секретному рецепту. Меняется сезонно. Только в Soul Cafe.</div><div class="menu-footer"><div class="menu-price">от 55 000 сум</div><button class="menu-order">Заказать →</button></div></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="menu-img-bg" style="background:linear-gradient(160deg,#E8F0D8,#D8E8C8)"></div><span class="menu-img-emoji">🥘</span></div>
+        <div class="menu-body"><div class="menu-name">Горячие блюда</div><div class="menu-desc">Сезонное меню из локальных продуктов. Сытно, вкусно, с характером.</div><div class="menu-footer"><div class="menu-price">от 65 000 сум</div><button class="menu-order">Заказать →</button></div></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="menu-img-bg" style="background:linear-gradient(160deg,#E0EEF8,#C8E0F0)"></div><span class="menu-img-emoji">🧃</span></div>
+        <div class="menu-body"><div class="menu-name">Свежевыжатые соки</div><div class="menu-desc">Сезонные фрукты и овощи. Никаких концентратов — только живой сок.</div><div class="menu-footer"><div class="menu-price">от 32 000 сум</div><button class="menu-order">Заказать →</button></div></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="menu-img-bg" style="background:linear-gradient(160deg,#F8E8D0,#F0D8B8)"></div><span class="menu-img-emoji">🥐</span><span class="menu-tag" style="background:var(--gold)">Завтрак</span></div>
+        <div class="menu-body"><div class="menu-name">Завтраки Soul</div><div class="menu-desc">Лёгкие и сытные завтраки. Подаём с 8:00. Идеальное начало дня.</div><div class="menu-footer"><div class="menu-price">от 38 000 сум</div><button class="menu-order">Заказать →</button></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="events-section" id="events">
+  <div class="container">
+    <div class="reveal"><div class="eyebrow">События</div><h2 class="sec-title">Что происходит<br><em>в Soul Cafe</em></h2></div>
+    <div class="events-grid reveal rd1">
+      <div class="event-main">
+        <div class="event-main-tag">🎵 Еженедельно</div>
+        <div class="event-main-title">Вечера<br>акустики</div>
+        <div class="event-main-desc">Уютные вечера с живым звуком — гитара, голос, атмосфера. Приглашаем исполнителей из Ташкента и гостей города. Особое меню, свечи, живая музыка.</div>
+        <div class="event-meta"><div class="em">🕖 С 19:00</div><div class="em">📍 Soul Cafe</div><div class="em">🎟 Вход свободный</div></div>
+      </div>
+      <div class="event-sub-grid">
+        <div class="event-card"><div class="event-card-icon">🍰</div><div><div class="event-card-title">Особые десерты</div><div class="event-card-desc">Сезонные и авторские десерты, которые меняются каждый месяц.</div><div class="event-card-tag">Ограниченно</div></div></div>
+        <div class="event-card"><div class="event-card-icon">🌿</div><div><div class="event-card-title">Ботанический интерьер</div><div class="event-card-desc">Обновляем растения и пространство. Каждый визит — немного другой Soul Cafe.</div><div class="event-card-tag">Постоянно</div></div></div>
+        <div class="event-card"><div class="event-card-icon">📸</div><div><div class="event-card-title">Instagram @soulcafe_uz</div><div class="event-card-desc">Следите за новостями и расписанием событий в нашем Instagram.</div><div class="event-card-tag">73.8K подписчиков</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gallery-section">
+  <div class="gallery-title"><div class="eyebrow" style="justify-content:center">Атмосфера</div><h2 class="sec-title" style="text-align:center"><em>Загляните</em> к нам</h2></div>
+  <div class="gallery-strip">
+    <div class="gallery-item" style="background:linear-gradient(160deg,#C8E8B8,#A8D898)"><span>🌿</span><span class="gallery-item-label">Интерьер</span></div>
+    <div class="gallery-item" style="background:linear-gradient(160deg,#F0E8D0,#E8D0A8)"><span>☕</span><span class="gallery-item-label">Кофе</span></div>
+    <div class="gallery-item" style="background:linear-gradient(160deg,#FFE0D8,#F0C8B8)"><span>🍰</span><span class="gallery-item-label">Десерты</span></div>
+    <div class="gallery-item" style="background:linear-gradient(160deg,#D8E8F0,#B8D8E8)"><span>🎵</span><span class="gallery-item-label">Акустика</span></div>
+    <div class="gallery-item" style="background:linear-gradient(160deg,#E8F0D8,#D0E8C0)"><span>🥗</span><span class="gallery-item-label">Меню</span></div>
+    <div class="gallery-item" style="background:linear-gradient(160deg,#F8E8C8,#F0D8A8)"><span>🌸</span><span class="gallery-item-label">Детали</span></div>
+  </div>
+</div>
+
+<section class="reserve-section" id="reserve">
+  <div class="container">
+    <div class="reveal" style="text-align:center;max-width:560px;margin:0 auto">
+      <div class="eyebrow" style="justify-content:center">Бронирование</div>
+      <h2 class="sec-title">Забронируйте<br><em>свой столик</em></h2>
+      <p class="sec-sub" style="margin:0 auto;text-align:center">Гарантируем ваше место. Подтвердим в течение 30 минут.</p>
+    </div>
+    <div class="reserve-wrap">
+      <div class="reveal">
+        <div class="reserve-steps">
+          <div class="rs"><div class="rs-n">1</div><div><div class="rs-title">Выберите дату и время</div><div class="rs-desc">Кафе работает с 8:00 до 00:00 каждый день</div></div></div>
+          <div class="rs"><div class="rs-n">2</div><div><div class="rs-title">Укажите количество гостей</div><div class="rs-desc">Подготовим нужное количество мест</div></div></div>
+          <div class="rs"><div class="rs-n">3</div><div><div class="rs-title">Подтвердим бронь</div><div class="rs-desc">Перезвоним или напишем в Telegram в течение 30 минут</div></div></div>
+          <div class="rs"><div class="rs-n">4</div><div><div class="rs-title">Приходите и наслаждайтесь</div><div class="rs-desc">Ваш столик будет готов. Ждём вас в Soul Cafe 🌿</div></div></div>
+        </div>
+        <div class="contacts-block">
+          <div class="citem"><div class="c-ico">📍</div><div><div class="c-lbl">Адрес</div><div class="c-val">Buyuk Ipak Yuli, 152, Ташкент</div></div></div>
+          <a href="https://t.me/Soulboutiquecafe" class="citem" target="_blank"><div class="c-ico">✈️</div><div><div class="c-lbl">Telegram</div><div class="c-val">t.me/Soulboutiquecafe</div></div></a>
+          <a href="https://instagram.com/soulcafe_uz" class="citem" target="_blank"><div class="c-ico">📸</div><div><div class="c-lbl">Instagram</div><div class="c-val">@soulcafe_uz</div></div></a>
+          <div class="citem"><div class="c-ico">🕗</div><div><div class="c-lbl">Режим работы</div><div class="c-val">08:00 – 00:00 · Ежедневно</div></div></div>
+        </div>
+      </div>
+      <div class="reserve-form reveal rd2">
+        <div class="form-title">Забронировать стол</div>
+        <div class="form-sub">Заполните форму — подтвердим в течение 30 минут 🌿</div>
+        <div class="frow">
+          <div class="fg"><label class="fl">Ваше имя</label><input id="f_name" class="fi" type="text" placeholder="Имя и фамилия"></div>
+          <div class="fg"><label class="fl">Телефон</label><input id="f_phone" class="fi" type="tel" placeholder="+998 90 000 00 00"></div>
+        </div>
+        <div class="fg"><label class="fl">Дата визита</label><input id="f_date" class="fi" type="date"></div>
+        <div class="fg">
+          <label class="fl">Выберите время</label>
+          <div class="time-slots" id="timeSlots">
+            <button class="tslot" onclick="selectTime(this)">08:00</button>
+            <button class="tslot" onclick="selectTime(this)">09:00</button>
+            <button class="tslot" onclick="selectTime(this)">10:00</button>
+            <button class="tslot" onclick="selectTime(this)">11:00</button>
+            <button class="tslot" onclick="selectTime(this)">12:00</button>
+            <button class="tslot" onclick="selectTime(this)">13:00</button>
+            <button class="tslot" onclick="selectTime(this)">14:00</button>
+            <button class="tslot" onclick="selectTime(this)">15:00</button>
+            <button class="tslot" onclick="selectTime(this)">16:00</button>
+            <button class="tslot" onclick="selectTime(this)">17:00</button>
+            <button class="tslot" onclick="selectTime(this)">18:00</button>
+            <button class="tslot" onclick="selectTime(this)">19:00</button>
+            <button class="tslot" onclick="selectTime(this)">20:00</button>
+            <button class="tslot" onclick="selectTime(this)">21:00</button>
+            <button class="tslot" onclick="selectTime(this)">22:00</button>
+            <button class="tslot" onclick="selectTime(this)">23:00</button>
+          </div>
+          <input type="hidden" id="f_time">
+        </div>
+        <div class="fg">
+          <label class="fl">Количество гостей</label>
+          <div class="guests-row">
+            <button class="g-btn" onclick="changeGuests(-1)">−</button>
+            <span class="g-count" id="guestCount">2</span>
+            <button class="g-btn" onclick="changeGuests(1)">+</button>
+            <span class="g-label" id="guestLabel">гостя</span>
+          </div>
+          <input type="hidden" id="f_guests" value="2">
+        </div>
+        <div class="fg"><label class="fl">Особые пожелания</label><textarea id="f_note" class="fta" placeholder="Детский стул, аллергия, особый повод..."></textarea></div>
+        <button class="fsub" onclick="submitReservation()">🌿 Забронировать стол</button>
+        <div class="fnote">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="f-brand-name">SOUL CAFE</div>
+      <div class="f-brand-tag">Кафе, где природа встречается со вкусом 🌿</div>
+      <div class="f-brand-desc">Buyuk Ipak Yuli, 152, Ташкент. Открыто ежедневно 08:00–00:00. От создателей @memories_group_uz.</div>
+      <div class="f-social">
+        <a href="https://instagram.com/soulcafe_uz" class="f-soc" target="_blank">📸</a>
+        <a href="https://t.me/Soulboutiquecafe" class="f-soc" target="_blank">✈️</a>
+      </div>
+    </div>
+    <div class="fcol"><div class="fcol-title">Меню</div><ul><li><a href="#">Завтраки</a></li><li><a href="#">Горячие блюда</a></li><li><a href="#">Десерты</a></li><li><a href="#">Напитки</a></li></ul></div>
+    <div class="fcol"><div class="fcol-title">Soul Cafe</div><ul><li><a href="#about">О нас</a></li><li><a href="#events">События</a></li><li><a href="#reserve">Бронирование</a></li><li><a href="https://instagram.com/soulcafe_uz">Instagram</a></li></ul></div>
+    <div class="fcol"><div class="fcol-title">Контакты</div><ul><li><a href="#">Buyuk Ipak Yuli, 152</a></li><li><a href="#">Ташкент, Узбекистан</a></li><li><a href="#">08:00 – 00:00</a></li><li><a href="https://t.me/Soulboutiquecafe">Telegram</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Soul Cafe · От создателей @memories_group_uz</span>
+    <div class="f-live">Открыто сейчас · 08:00–00:00</div>
+    <span>Ташкент, Узбекистан</span>
+  </div>
+</footer>
+
+<div class="toast" id="toast"><span class="toast-icon">🌿</span><span id="toastMsg"></span></div>
+
+<script src="soulcafe.js"></script>
+</body>
+</html>
